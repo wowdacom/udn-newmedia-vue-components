@@ -507,6 +507,7 @@ export default {
   background-color: #fff;
   transform: translate3d(0, 0, 0);
   box-shadow: 0 8px 6px -6px rgba(#a4a4a4, .3);
+  padding: 20px;
 }
 .nav_list{
   position: relative;
@@ -535,8 +536,7 @@ export default {
   margin: 0 8px;
   cursor: pointer;
   @media screen and (min-width: 1024px) {
-    top: 17px;
-    padding-bottom: 17px;
+    top: 20px;
   }
 }
 .nav_list_item {
